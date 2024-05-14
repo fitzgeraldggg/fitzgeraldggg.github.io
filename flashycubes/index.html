@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Infames - flashycubes</title>
+  <link rel="icon" type="image/jpg" href="assets/infames.jpg" />
+  <link rel="stylesheet" href="style.css?v=1.0.1" />
+  <script type="text/javascript" src="flashycubes.js?v=1.0.5"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,
+    maximum-scale=1.0,user-scalable=no;" />
+</head>
+<body onload="
+  var canvas = document.getElementById('screen');
+  var volume = document.getElementById('volume_display');
+  flashycubes.init(canvas, volume);"
+>
+  <div class="container">
+  <div class="contents">
+    <ul>
+      <li>
+        <span class="uncommented">
+          set_volume(<span id="volume_display">0</span>);
+        </span> // scroll to change
+      </li>
+    </ul>
+  </div>
+  <canvas id="screen">
+    your browser does not support/allow canvases
+  </canvas>
+  </div>
+</body>
+</html>

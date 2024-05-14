@@ -1,0 +1,29 @@
+{
+  "name": "flashycubes",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint flashycubes.js && htmllint index.html && csslint style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infamess"
+  },
+  "author": "Infames (hhttps://github.com/Infamess)",
+  "license": "no one",
+  "bugs": {
+    "url": "https://github.com/Infamess"
+  },
+  "homepage": "https://github.com/Infamess",
+  "files": [
+    "flashycubes.js",
+    "assets/sburo.mp3"
+  ],
+  "devDependencies": {
+    "csslint": "^1.0.5",
+    "eslint": "^5.3.0",
+    "htmllint": "^0.7.2",
+    "htmllint-cli": "0.0.7"
+  }
+}
